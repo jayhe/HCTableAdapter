@@ -13,8 +13,6 @@
 		105C3755239F32580080AAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105C3754239F32580080AAD6 /* Assets.xcassets */; };
 		105C3758239F32580080AAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105C3756239F32580080AAD6 /* LaunchScreen.storyboard */; };
 		105C375B239F32580080AAD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C375A239F32580080AAD6 /* main.m */; };
-		105C3764239F32B30080AAD6 /* HCTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3763239F32B30080AAD6 /* HCTableViewAdapter.m */; };
-		105C3767239F33080080AAD6 /* HCTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3766239F33080080AAD6 /* HCTableViewDataSource.m */; };
 		105C376F239F758F0080AAD6 /* HCTestSectionVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C376E239F758F0080AAD6 /* HCTestSectionVM.m */; };
 		105C3772239F75BA0080AAD6 /* HCTestSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3771239F75BA0080AAD6 /* HCTestSectionHeaderView.m */; };
 		105C3775239F75CF0080AAD6 /* HCTestSectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3774239F75CF0080AAD6 /* HCTestSectionFooterView.m */; };
@@ -23,11 +21,9 @@
 		105C377E239F7B850080AAD6 /* HCTestOneCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C377D239F7B850080AAD6 /* HCTestOneCellVM.m */; };
 		105C3781239F7CAE0080AAD6 /* HCTestTwoCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3780239F7CAE0080AAD6 /* HCTestTwoCellVM.m */; };
 		105C379223A0BF160080AAD6 /* HCDemoTableViewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379123A0BF160080AAD6 /* HCDemoTableViewEvent.m */; };
-		105C379523A0C17C0080AAD6 /* HCTableViewEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379423A0C17C0080AAD6 /* HCTableViewEventHandler.m */; };
-		105C379923A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379823A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m */; };
-		105C379C23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379B23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m */; };
 		105C379F23A0CF760080AAD6 /* HCDemoTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379E23A0CF760080AAD6 /* HCDemoTableViewAdapter.m */; };
 		105C37A223A0D1230080AAD6 /* HCDemoTableViewEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C37A123A0D1230080AAD6 /* HCDemoTableViewEventHandler.m */; };
+		D33F13D907CC2B4AF6ABC56D /* libPods-HCTableAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C8A7E153D48F2766F99DDD /* libPods-HCTableAdapter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +37,6 @@
 		105C3757239F32580080AAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		105C3759239F32580080AAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105C375A239F32580080AAD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		105C3762239F32B30080AAD6 /* HCTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewAdapter.h; sourceTree = "<group>"; };
-		105C3763239F32B30080AAD6 /* HCTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTableViewAdapter.m; sourceTree = "<group>"; };
-		105C3765239F33080080AAD6 /* HCTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewDataSource.h; sourceTree = "<group>"; };
-		105C3766239F33080080AAD6 /* HCTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTableViewDataSource.m; sourceTree = "<group>"; };
-		105C3769239F34100080AAD6 /* HCTableViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewProtocol.h; sourceTree = "<group>"; };
 		105C376D239F758F0080AAD6 /* HCTestSectionVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestSectionVM.h; sourceTree = "<group>"; };
 		105C376E239F758F0080AAD6 /* HCTestSectionVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestSectionVM.m; sourceTree = "<group>"; };
 		105C3770239F75BA0080AAD6 /* HCTestSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestSectionHeaderView.h; sourceTree = "<group>"; };
@@ -60,19 +51,15 @@
 		105C377D239F7B850080AAD6 /* HCTestOneCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestOneCellVM.m; sourceTree = "<group>"; };
 		105C377F239F7CAE0080AAD6 /* HCTestTwoCellVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestTwoCellVM.h; sourceTree = "<group>"; };
 		105C3780239F7CAE0080AAD6 /* HCTestTwoCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestTwoCellVM.m; sourceTree = "<group>"; };
-		105C378E23A0BD430080AAD6 /* HCTableViewEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewEventDelegate.h; sourceTree = "<group>"; };
 		105C379023A0BF160080AAD6 /* HCDemoTableViewEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDemoTableViewEvent.h; sourceTree = "<group>"; };
 		105C379123A0BF160080AAD6 /* HCDemoTableViewEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDemoTableViewEvent.m; sourceTree = "<group>"; };
-		105C379323A0C17C0080AAD6 /* HCTableViewEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewEventHandler.h; sourceTree = "<group>"; };
-		105C379423A0C17C0080AAD6 /* HCTableViewEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTableViewEventHandler.m; sourceTree = "<group>"; };
-		105C379723A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HCEventDelegate.h"; sourceTree = "<group>"; };
-		105C379823A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HCEventDelegate.m"; sourceTree = "<group>"; };
-		105C379A23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+HCEventDelegate.h"; sourceTree = "<group>"; };
-		105C379B23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+HCEventDelegate.m"; sourceTree = "<group>"; };
 		105C379D23A0CF760080AAD6 /* HCDemoTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDemoTableViewAdapter.h; sourceTree = "<group>"; };
 		105C379E23A0CF760080AAD6 /* HCDemoTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDemoTableViewAdapter.m; sourceTree = "<group>"; };
 		105C37A023A0D1230080AAD6 /* HCDemoTableViewEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDemoTableViewEventHandler.h; sourceTree = "<group>"; };
 		105C37A123A0D1230080AAD6 /* HCDemoTableViewEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDemoTableViewEventHandler.m; sourceTree = "<group>"; };
+		1C135E9E59BF11F594FED11F /* Pods-HCTableAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCTableAdapter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCTableAdapter/Pods-HCTableAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+		80C8A7E153D48F2766F99DDD /* libPods-HCTableAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCTableAdapter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D4C88925DC1E38375389AA /* Pods-HCTableAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCTableAdapter.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCTableAdapter/Pods-HCTableAdapter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33F13D907CC2B4AF6ABC56D /* libPods-HCTableAdapter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +79,8 @@
 			children = (
 				105C374A239F32560080AAD6 /* HCTableAdapter */,
 				105C3749239F32560080AAD6 /* Products */,
+				23121300F1BBCE84B641D8AB /* Pods */,
+				FC64D75C692C3F25CE059DCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +95,6 @@
 		105C374A239F32560080AAD6 /* HCTableAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				105C3761239F32930080AAD6 /* Classes */,
 				105C374B239F32560080AAD6 /* AppDelegate.h */,
 				105C374C239F32560080AAD6 /* AppDelegate.m */,
 				105C374E239F32560080AAD6 /* ViewController.h */,
@@ -118,30 +107,6 @@
 				105C375A239F32580080AAD6 /* main.m */,
 			);
 			path = HCTableAdapter;
-			sourceTree = "<group>";
-		};
-		105C3761239F32930080AAD6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				105C379623A0C8F50080AAD6 /* View */,
-				105C3768239F33230080AAD6 /* Protocols */,
-				105C3762239F32B30080AAD6 /* HCTableViewAdapter.h */,
-				105C3763239F32B30080AAD6 /* HCTableViewAdapter.m */,
-				105C379323A0C17C0080AAD6 /* HCTableViewEventHandler.h */,
-				105C379423A0C17C0080AAD6 /* HCTableViewEventHandler.m */,
-				105C3765239F33080080AAD6 /* HCTableViewDataSource.h */,
-				105C3766239F33080080AAD6 /* HCTableViewDataSource.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		105C3768239F33230080AAD6 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				105C3769239F34100080AAD6 /* HCTableViewProtocol.h */,
-				105C378E23A0BD430080AAD6 /* HCTableViewEventDelegate.h */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		105C376A239F754B0080AAD6 /* Demo */ = {
@@ -187,15 +152,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		105C379623A0C8F50080AAD6 /* View */ = {
+		23121300F1BBCE84B641D8AB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				105C379723A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.h */,
-				105C379823A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m */,
-				105C379A23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.h */,
-				105C379B23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m */,
+				1C135E9E59BF11F594FED11F /* Pods-HCTableAdapter.debug.xcconfig */,
+				C0D4C88925DC1E38375389AA /* Pods-HCTableAdapter.release.xcconfig */,
 			);
-			path = View;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC64D75C692C3F25CE059DCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C8A7E153D48F2766F99DDD /* libPods-HCTableAdapter.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 105C375E239F32580080AAD6 /* Build configuration list for PBXNativeTarget "HCTableAdapter" */;
 			buildPhases = (
+				284727155FAF365E9827C6EB /* [CP] Check Pods Manifest.lock */,
 				105C3744239F32560080AAD6 /* Sources */,
 				105C3745239F32560080AAD6 /* Frameworks */,
 				105C3746239F32560080AAD6 /* Resources */,
@@ -263,6 +235,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		284727155FAF365E9827C6EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HCTableAdapter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		105C3744239F32560080AAD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,22 +267,17 @@
 			files = (
 				105C3781239F7CAE0080AAD6 /* HCTestTwoCellVM.m in Sources */,
 				105C3772239F75BA0080AAD6 /* HCTestSectionHeaderView.m in Sources */,
-				105C379923A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m in Sources */,
 				105C3750239F32560080AAD6 /* ViewController.m in Sources */,
 				105C379F23A0CF760080AAD6 /* HCDemoTableViewAdapter.m in Sources */,
 				105C3778239F75FC0080AAD6 /* HCTestOneCell.m in Sources */,
 				105C379223A0BF160080AAD6 /* HCDemoTableViewEvent.m in Sources */,
 				105C375B239F32580080AAD6 /* main.m in Sources */,
-				105C3767239F33080080AAD6 /* HCTableViewDataSource.m in Sources */,
 				105C37A223A0D1230080AAD6 /* HCDemoTableViewEventHandler.m in Sources */,
 				105C377B239F76110080AAD6 /* HCTestTwoCell.m in Sources */,
-				105C3764239F32B30080AAD6 /* HCTableViewAdapter.m in Sources */,
 				105C374D239F32560080AAD6 /* AppDelegate.m in Sources */,
-				105C379523A0C17C0080AAD6 /* HCTableViewEventHandler.m in Sources */,
 				105C3775239F75CF0080AAD6 /* HCTestSectionFooterView.m in Sources */,
 				105C376F239F758F0080AAD6 /* HCTestSectionVM.m in Sources */,
 				105C377E239F7B850080AAD6 /* HCTestOneCellVM.m in Sources */,
-				105C379C23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +417,7 @@
 		};
 		105C375F239F32580080AAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C135E9E59BF11F594FED11F /* Pods-HCTableAdapter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +435,7 @@
 		};
 		105C3760239F32580080AAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D4C88925DC1E38375389AA /* Pods-HCTableAdapter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

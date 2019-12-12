@@ -1,0 +1,27 @@
+{
+  "name": "HCTableAdapter",
+  "version": "0.0.1",
+  "summary": "将table view的逻辑和代码迁移到适配管理器中，从而减少viewController的代码量",
+  "description": "将table view的逻辑和代码迁移到适配管理器中，从而减少viewController的代码量",
+  "homepage": "https://github.com/jayhe/HCTableAdapter",
+  "license": "MIT",
+  "authors": {
+    "jayhe": "1054134542@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/jayhe/HCTableAdapter.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "HCTableAdapter/Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

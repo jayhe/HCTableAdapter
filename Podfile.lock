@@ -1,0 +1,16 @@
+PODS:
+  - HCTableAdapter (0.0.1)
+
+DEPENDENCIES:
+  - HCTableAdapter (from `./`)
+
+EXTERNAL SOURCES:
+  HCTableAdapter:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  HCTableAdapter: 7dce4d06d56f728277fac6470d6b0e50890929e6
+
+PODFILE CHECKSUM: 1dd6d675c32bef3fe6b2456692d0cc9e41a74b47
+
+COCOAPODS: 1.5.3

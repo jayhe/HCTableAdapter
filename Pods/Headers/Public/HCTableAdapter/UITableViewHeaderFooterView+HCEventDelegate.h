@@ -1,0 +1,1 @@
+../../../../HCTableAdapter/Classes/View/UITableViewHeaderFooterView+HCEventDelegate.h

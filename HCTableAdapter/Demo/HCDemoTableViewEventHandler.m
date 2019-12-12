@@ -30,14 +30,16 @@
             break;
         default: {
             // 将时间传递下去，顺着响应链找到处理该事件的【比如有些逻辑放到控制器的就让控制器实现这个协议，则EventHandler处理不了的事件就会传递过去】
-            UIResponder *nextResponder = self.responder.nextResponder;
-            while (nextResponder) {
-                if ([nextResponder conformsToProtocol:@protocol(HCTableViewEventDelegate)] && [nextResponder respondsToSelector:@selector(onCatchEvent:)]) {
-                    [((id<HCTableViewEventDelegate>)nextResponder) onCatchEvent:event];
-                    break;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                UIResponder *nextResponder = self.responder.nextResponder;
+                while (nextResponder) {
+                    if ([nextResponder conformsToProtocol:@protocol(HCTableViewEventDelegate)] && [nextResponder respondsToSelector:@selector(onCatchEvent:)]) {
+                        [((id<HCTableViewEventDelegate>)nextResponder) onCatchEvent:event];
+                        break;
+                    }
+                    nextResponder = nextResponder.nextResponder;
                 }
-                nextResponder = nextResponder.nextResponder;
-            }
+            });
         }
             break;
     }

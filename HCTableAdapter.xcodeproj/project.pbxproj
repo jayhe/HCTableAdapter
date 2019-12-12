@@ -13,6 +13,21 @@
 		105C3755239F32580080AAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105C3754239F32580080AAD6 /* Assets.xcassets */; };
 		105C3758239F32580080AAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105C3756239F32580080AAD6 /* LaunchScreen.storyboard */; };
 		105C375B239F32580080AAD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C375A239F32580080AAD6 /* main.m */; };
+		105C3764239F32B30080AAD6 /* HCTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3763239F32B30080AAD6 /* HCTableViewAdapter.m */; };
+		105C3767239F33080080AAD6 /* HCTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3766239F33080080AAD6 /* HCTableViewDataSource.m */; };
+		105C376F239F758F0080AAD6 /* HCTestSectionVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C376E239F758F0080AAD6 /* HCTestSectionVM.m */; };
+		105C3772239F75BA0080AAD6 /* HCTestSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3771239F75BA0080AAD6 /* HCTestSectionHeaderView.m */; };
+		105C3775239F75CF0080AAD6 /* HCTestSectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3774239F75CF0080AAD6 /* HCTestSectionFooterView.m */; };
+		105C3778239F75FC0080AAD6 /* HCTestOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3777239F75FC0080AAD6 /* HCTestOneCell.m */; };
+		105C377B239F76110080AAD6 /* HCTestTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C377A239F76110080AAD6 /* HCTestTwoCell.m */; };
+		105C377E239F7B850080AAD6 /* HCTestOneCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C377D239F7B850080AAD6 /* HCTestOneCellVM.m */; };
+		105C3781239F7CAE0080AAD6 /* HCTestTwoCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C3780239F7CAE0080AAD6 /* HCTestTwoCellVM.m */; };
+		105C379223A0BF160080AAD6 /* HCDemoTableViewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379123A0BF160080AAD6 /* HCDemoTableViewEvent.m */; };
+		105C379523A0C17C0080AAD6 /* HCTableViewEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379423A0C17C0080AAD6 /* HCTableViewEventHandler.m */; };
+		105C379923A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379823A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m */; };
+		105C379C23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379B23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m */; };
+		105C379F23A0CF760080AAD6 /* HCDemoTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C379E23A0CF760080AAD6 /* HCDemoTableViewAdapter.m */; };
+		105C37A223A0D1230080AAD6 /* HCDemoTableViewEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C37A123A0D1230080AAD6 /* HCDemoTableViewEventHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,38 @@
 		105C3757239F32580080AAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		105C3759239F32580080AAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105C375A239F32580080AAD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		105C3762239F32B30080AAD6 /* HCTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewAdapter.h; sourceTree = "<group>"; };
+		105C3763239F32B30080AAD6 /* HCTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTableViewAdapter.m; sourceTree = "<group>"; };
+		105C3765239F33080080AAD6 /* HCTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewDataSource.h; sourceTree = "<group>"; };
+		105C3766239F33080080AAD6 /* HCTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTableViewDataSource.m; sourceTree = "<group>"; };
+		105C3769239F34100080AAD6 /* HCTableViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewProtocol.h; sourceTree = "<group>"; };
+		105C376D239F758F0080AAD6 /* HCTestSectionVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestSectionVM.h; sourceTree = "<group>"; };
+		105C376E239F758F0080AAD6 /* HCTestSectionVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestSectionVM.m; sourceTree = "<group>"; };
+		105C3770239F75BA0080AAD6 /* HCTestSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestSectionHeaderView.h; sourceTree = "<group>"; };
+		105C3771239F75BA0080AAD6 /* HCTestSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestSectionHeaderView.m; sourceTree = "<group>"; };
+		105C3773239F75CF0080AAD6 /* HCTestSectionFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestSectionFooterView.h; sourceTree = "<group>"; };
+		105C3774239F75CF0080AAD6 /* HCTestSectionFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestSectionFooterView.m; sourceTree = "<group>"; };
+		105C3776239F75FC0080AAD6 /* HCTestOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestOneCell.h; sourceTree = "<group>"; };
+		105C3777239F75FC0080AAD6 /* HCTestOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestOneCell.m; sourceTree = "<group>"; };
+		105C3779239F76110080AAD6 /* HCTestTwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestTwoCell.h; sourceTree = "<group>"; };
+		105C377A239F76110080AAD6 /* HCTestTwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestTwoCell.m; sourceTree = "<group>"; };
+		105C377C239F7B850080AAD6 /* HCTestOneCellVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestOneCellVM.h; sourceTree = "<group>"; };
+		105C377D239F7B850080AAD6 /* HCTestOneCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestOneCellVM.m; sourceTree = "<group>"; };
+		105C377F239F7CAE0080AAD6 /* HCTestTwoCellVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTestTwoCellVM.h; sourceTree = "<group>"; };
+		105C3780239F7CAE0080AAD6 /* HCTestTwoCellVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTestTwoCellVM.m; sourceTree = "<group>"; };
+		105C378E23A0BD430080AAD6 /* HCTableViewEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewEventDelegate.h; sourceTree = "<group>"; };
+		105C379023A0BF160080AAD6 /* HCDemoTableViewEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDemoTableViewEvent.h; sourceTree = "<group>"; };
+		105C379123A0BF160080AAD6 /* HCDemoTableViewEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDemoTableViewEvent.m; sourceTree = "<group>"; };
+		105C379323A0C17C0080AAD6 /* HCTableViewEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTableViewEventHandler.h; sourceTree = "<group>"; };
+		105C379423A0C17C0080AAD6 /* HCTableViewEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTableViewEventHandler.m; sourceTree = "<group>"; };
+		105C379723A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HCEventDelegate.h"; sourceTree = "<group>"; };
+		105C379823A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HCEventDelegate.m"; sourceTree = "<group>"; };
+		105C379A23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+HCEventDelegate.h"; sourceTree = "<group>"; };
+		105C379B23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+HCEventDelegate.m"; sourceTree = "<group>"; };
+		105C379D23A0CF760080AAD6 /* HCDemoTableViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDemoTableViewAdapter.h; sourceTree = "<group>"; };
+		105C379E23A0CF760080AAD6 /* HCDemoTableViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDemoTableViewAdapter.m; sourceTree = "<group>"; };
+		105C37A023A0D1230080AAD6 /* HCDemoTableViewEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDemoTableViewEventHandler.h; sourceTree = "<group>"; };
+		105C37A123A0D1230080AAD6 /* HCDemoTableViewEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCDemoTableViewEventHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +105,12 @@
 		105C374A239F32560080AAD6 /* HCTableAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				105C3761239F32930080AAD6 /* Classes */,
 				105C374B239F32560080AAD6 /* AppDelegate.h */,
 				105C374C239F32560080AAD6 /* AppDelegate.m */,
 				105C374E239F32560080AAD6 /* ViewController.h */,
 				105C374F239F32560080AAD6 /* ViewController.m */,
+				105C376A239F754B0080AAD6 /* Demo */,
 				105C3751239F32560080AAD6 /* Main.storyboard */,
 				105C3754239F32580080AAD6 /* Assets.xcassets */,
 				105C3756239F32580080AAD6 /* LaunchScreen.storyboard */,
@@ -69,6 +118,84 @@
 				105C375A239F32580080AAD6 /* main.m */,
 			);
 			path = HCTableAdapter;
+			sourceTree = "<group>";
+		};
+		105C3761239F32930080AAD6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				105C379623A0C8F50080AAD6 /* View */,
+				105C3768239F33230080AAD6 /* Protocols */,
+				105C3762239F32B30080AAD6 /* HCTableViewAdapter.h */,
+				105C3763239F32B30080AAD6 /* HCTableViewAdapter.m */,
+				105C379323A0C17C0080AAD6 /* HCTableViewEventHandler.h */,
+				105C379423A0C17C0080AAD6 /* HCTableViewEventHandler.m */,
+				105C3765239F33080080AAD6 /* HCTableViewDataSource.h */,
+				105C3766239F33080080AAD6 /* HCTableViewDataSource.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		105C3768239F33230080AAD6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				105C3769239F34100080AAD6 /* HCTableViewProtocol.h */,
+				105C378E23A0BD430080AAD6 /* HCTableViewEventDelegate.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		105C376A239F754B0080AAD6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				105C379D23A0CF760080AAD6 /* HCDemoTableViewAdapter.h */,
+				105C379E23A0CF760080AAD6 /* HCDemoTableViewAdapter.m */,
+				105C37A023A0D1230080AAD6 /* HCDemoTableViewEventHandler.h */,
+				105C37A123A0D1230080AAD6 /* HCDemoTableViewEventHandler.m */,
+				105C376B239F754B0080AAD6 /* Model */,
+				105C376C239F754B0080AAD6 /* View */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		105C376B239F754B0080AAD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				105C379023A0BF160080AAD6 /* HCDemoTableViewEvent.h */,
+				105C379123A0BF160080AAD6 /* HCDemoTableViewEvent.m */,
+				105C376D239F758F0080AAD6 /* HCTestSectionVM.h */,
+				105C376E239F758F0080AAD6 /* HCTestSectionVM.m */,
+				105C377C239F7B850080AAD6 /* HCTestOneCellVM.h */,
+				105C377D239F7B850080AAD6 /* HCTestOneCellVM.m */,
+				105C377F239F7CAE0080AAD6 /* HCTestTwoCellVM.h */,
+				105C3780239F7CAE0080AAD6 /* HCTestTwoCellVM.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		105C376C239F754B0080AAD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				105C3770239F75BA0080AAD6 /* HCTestSectionHeaderView.h */,
+				105C3771239F75BA0080AAD6 /* HCTestSectionHeaderView.m */,
+				105C3773239F75CF0080AAD6 /* HCTestSectionFooterView.h */,
+				105C3774239F75CF0080AAD6 /* HCTestSectionFooterView.m */,
+				105C3776239F75FC0080AAD6 /* HCTestOneCell.h */,
+				105C3777239F75FC0080AAD6 /* HCTestOneCell.m */,
+				105C3779239F76110080AAD6 /* HCTestTwoCell.h */,
+				105C377A239F76110080AAD6 /* HCTestTwoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		105C379623A0C8F50080AAD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				105C379723A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.h */,
+				105C379823A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m */,
+				105C379A23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.h */,
+				105C379B23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +268,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105C3781239F7CAE0080AAD6 /* HCTestTwoCellVM.m in Sources */,
+				105C3772239F75BA0080AAD6 /* HCTestSectionHeaderView.m in Sources */,
+				105C379923A0C9160080AAD6 /* UITableViewCell+HCEventDelegate.m in Sources */,
 				105C3750239F32560080AAD6 /* ViewController.m in Sources */,
+				105C379F23A0CF760080AAD6 /* HCDemoTableViewAdapter.m in Sources */,
+				105C3778239F75FC0080AAD6 /* HCTestOneCell.m in Sources */,
+				105C379223A0BF160080AAD6 /* HCDemoTableViewEvent.m in Sources */,
 				105C375B239F32580080AAD6 /* main.m in Sources */,
+				105C3767239F33080080AAD6 /* HCTableViewDataSource.m in Sources */,
+				105C37A223A0D1230080AAD6 /* HCDemoTableViewEventHandler.m in Sources */,
+				105C377B239F76110080AAD6 /* HCTestTwoCell.m in Sources */,
+				105C3764239F32B30080AAD6 /* HCTableViewAdapter.m in Sources */,
 				105C374D239F32560080AAD6 /* AppDelegate.m in Sources */,
+				105C379523A0C17C0080AAD6 /* HCTableViewEventHandler.m in Sources */,
+				105C3775239F75CF0080AAD6 /* HCTestSectionFooterView.m in Sources */,
+				105C376F239F758F0080AAD6 /* HCTestSectionVM.m in Sources */,
+				105C377E239F7B850080AAD6 /* HCTestOneCellVM.m in Sources */,
+				105C379C23A0CA530080AAD6 /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

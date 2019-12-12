@@ -1,0 +1,2 @@
+# HCTableAdapter
+将table view的逻辑和代码迁移到适配管理器中，从而减少viewController的代码量

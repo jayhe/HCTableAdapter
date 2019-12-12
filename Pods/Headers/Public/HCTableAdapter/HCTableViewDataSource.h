@@ -1,1 +1,1 @@
-../../../../HCTableAdapter/Classes/HCTableViewDataSource.h
+../../../HCTableAdapter/HCTableAdapter/Classes/HCTableViewDataSource.h

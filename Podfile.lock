@@ -2,15 +2,20 @@ PODS:
   - HCTableAdapter (0.0.1)
 
 DEPENDENCIES:
-  - HCTableAdapter (from `./`)
+  - HCTableAdapter (from `https://github.com/jayhe/HCTableAdapter.git`)
 
 EXTERNAL SOURCES:
   HCTableAdapter:
-    :path: "./"
+    :git: https://github.com/jayhe/HCTableAdapter.git
+
+CHECKOUT OPTIONS:
+  HCTableAdapter:
+    :commit: cca1c4b8e5387c0e1308def0bb35188fae72e3d4
+    :git: https://github.com/jayhe/HCTableAdapter.git
 
 SPEC CHECKSUMS:
-  HCTableAdapter: 7dce4d06d56f728277fac6470d6b0e50890929e6
+  HCTableAdapter: e490da5d631a34a3d20fdb7d0c79f27a960cc779
 
-PODFILE CHECKSUM: 1dd6d675c32bef3fe6b2456692d0cc9e41a74b47
+PODFILE CHECKSUM: 57037bad61773dd475bc52666ace7c730d7aa2d6
 
 COCOAPODS: 1.5.3

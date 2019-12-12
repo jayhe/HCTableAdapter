@@ -1,1 +1,1 @@
-../../../../HCTableAdapter/Classes/Protocols/HCTableViewEventDelegate.h
+../../../HCTableAdapter/HCTableAdapter/Classes/Protocols/HCTableViewEventDelegate.h

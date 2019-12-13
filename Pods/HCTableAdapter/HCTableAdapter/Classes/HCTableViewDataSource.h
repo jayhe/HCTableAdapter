@@ -38,6 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 数据变化更新UI的代理；这里如果使用rac的话直接写一个RACSubject就好。
 @protocol HCTableViewDataSourceChangeDelegate <NSObject>
 
+
 - (void)dataSource:(HCTableViewDataSource *)dataSource didChangeAtIndexPath:(nullable NSIndexPath *)indexPath;
 
 @end

@@ -22,8 +22,9 @@
             if ([event.eventData isKindOfClass:[HCTestSectionVM class]]) {
                 HCTestSectionVM *sectionVM = (HCTestSectionVM *)event.eventData;
                 sectionVM.isFold = !sectionVM.isFold;
-                if (self.tableDataSource.delegate && [self.tableDataSource.delegate respondsToSelector:@selector(dataSource:didChangeAtIndexPath:)]) {
-                    [self.tableDataSource.delegate dataSource:self.tableDataSource didChangeAtIndexPath:nil];
+                if (self.tableDataSource.delegate && [self.tableDataSource.delegate respondsToSelector:@selector(dataSource:didChangeAtSections:withAnimation:)]) {
+                    NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:sectionVM.section];
+                    [self.tableDataSource.delegate dataSource:self.tableDataSource didChangeAtSections:indexSet withAnimation:UITableViewRowAnimationAutomatic];
                 }
             }
         }

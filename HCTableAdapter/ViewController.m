@@ -66,8 +66,12 @@
 
 - (void)bindData {
     HCTableViewDataSource *dataSource = [[HCTableViewDataSource alloc] init];
-    [dataSource.dataSource addObject:[[HCTestSectionVM alloc] initWithDict:@{}]];
-    [dataSource.dataSource addObject:[[HCTestSectionVM alloc] initWithDict:@{}]];
+    HCTestSectionVM *sectionOne = [[HCTestSectionVM alloc] initWithDict:@{}];
+    sectionOne.section = 0;
+    [dataSource.dataSource addObject:sectionOne];
+    HCTestSectionVM *sectionTwo = [[HCTestSectionVM alloc] initWithDict:@{}];
+    sectionTwo.section = 1;
+    [dataSource.dataSource addObject:sectionTwo];
     HCDemoTableViewEventHandler *eventHandler = [[HCDemoTableViewEventHandler alloc] init];
     self.tableAdapter = [[HCDemoTableViewAdapter alloc] initWithTableDataSource:dataSource tableView:self.testTableView eventHandler:eventHandler];
 }

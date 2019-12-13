@@ -47,12 +47,20 @@
 }
 
 #pragma mark - HCTableViewDataSourceChangeDelegate
+- (void)didChangeDataSource:(HCTableViewDataSource *)dataSource {
+    [self reloadWithDataSource:dataSource];
+}
+- (void)dataSource:(HCTableViewDataSource *)dataSource didChangeAtIndexPaths:(nonnull NSArray<NSIndexPath *> *)indexPaths withAnimation:(UITableViewRowAnimation)animation {
+    if (indexPaths) {
+        self.tableDataSource = dataSource;
+        [self.tableView reloadRowsAtIndexPaths:indexPaths withRowAnimation:animation];
+    }
+}
 
-- (void)dataSource:(HCTableViewDataSource *)dataSource didChangeAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath) {
-        // TODO:提供刷新section或者rows的API
-    } else {
-        [self reloadWithDataSource:dataSource];
+- (void)dataSource:(HCTableViewDataSource *)dataSource didChangeAtSections:(NSIndexSet *)sections withAnimation:(UITableViewRowAnimation)animation {
+    if (sections) {
+        self.tableDataSource = dataSource;
+        [self.tableView reloadSections:sections withRowAnimation:animation];
     }
 }
 

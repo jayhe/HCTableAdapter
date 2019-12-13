@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B8D72E58A58345F234F9CEEF4DE3DD5 /* HCTableViewEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC991837D9953E5AC99E06688550796 /* HCTableViewEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		23E9BABBBF655778644BA297D35B1591 /* HCTableViewEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1952835E3C204A5C294BC040E58FF0 /* HCTableViewEventHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3B29CF956D9716F667D6C21B72300FC5 /* UITableViewCell+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C13BED1558C4D8B0A4E11927FD403D /* UITableViewCell+HCEventDelegate.m */; };
+		0C8D5BA50D85CEC9935A72CB714B0576 /* HCTableViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EB73201580E870526CFAAC90727C9B64 /* HCTableViewProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F92753B260B92AE671165E8578FF566 /* HCTableViewEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCF6BD05ED8CCF3A59A8C62DAD66B2A /* HCTableViewEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BDECB8DB3E67ABB574F3130E506863C /* HCTableViewEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E038DB2AC72A8D9E036FFA26A245D24 /* HCTableViewEventHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37010C1052540F2E39B6292FAA123D2D /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A81E52948DF8A1743B98643659CBF194 /* UITableViewHeaderFooterView+HCEventDelegate.m */; };
+		3A0C353E47E35773E73F47D37802C0D7 /* HCTableViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7366CA02EA96B9E638E12A5B5265587E /* HCTableViewAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		413EF7A15E041BB40B7355101B064A76 /* UITableViewCell+HCEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6BD0EF4A857236EB011C00A5DF474E /* UITableViewCell+HCEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		496A42957CC1006331A89F66391B7D26 /* Pods-HCTableAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C43D18FCAB32E96E7106829FE6B16561 /* Pods-HCTableAdapter-dummy.m */; };
-		551565E9A185A490A2DE24E781454D5B /* HCTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D4FF71BD4A2521CA181FC534528259 /* HCTableViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6EDFD71F0D6E03170804ABDDD6605A38 /* HCTableViewEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A56731B1E18BDD19856AE8DAF12E6C42 /* HCTableViewEventHandler.m */; };
-		70AA6DC0B8F1F3F923D656BCE904BC48 /* HCTableViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6FA144CA011E0A5707C4C0D8548DF8 /* HCTableViewAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8346AA6644CF7E3FA889B584B6AB78E7 /* UITableViewCell+HCEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1442AE42957DC3AB0A4325994A974C /* UITableViewCell+HCEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CE2129FC6A07A9B1BBFBBDD22F18C51 /* UITableViewHeaderFooterView+HCEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 84819FB35A37331877AA63020B0F8449 /* UITableViewHeaderFooterView+HCEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		547FA4DA5B15963865D17A3367824092 /* HCTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0359F2B1DD0098A449EF72625EDF6849 /* HCTableViewAdapter.m */; };
+		5BDAF2AFFD741007D2111B06E029CE4C /* HCTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A90112C7142C83E732C679A7935689 /* HCTableViewDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8A69265299AB48AD34A9087BDA1959CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		A1FB0D4C10F03DD8EFF5789D8E44DDFC /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2098F05E58D0C2F241707B22151C13B5 /* UITableViewHeaderFooterView+HCEventDelegate.m */; };
-		B1AA47DED64BC4D7CAD586376C9F03AF /* UITableViewHeaderFooterView+HCEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEED294C6DFC99C671B3936E0F45E32 /* UITableViewHeaderFooterView+HCEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DFF34C2E6AF28E657321ECC802E81511 /* HCTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2DAAEFBDD25F8B06B017FC83048329 /* HCTableViewAdapter.m */; };
-		E04D768970DD4E24319B33FAA45DB4D5 /* HCTableAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6867008A8DAE4292748CA05621C616 /* HCTableAdapter-dummy.m */; };
+		B42C346B55D37AE0D6BC522C9CD42997 /* HCTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA744FD7152FBBA9A881EA16496D19E /* HCTableViewDataSource.m */; };
+		D1DEF8E53486A464FD5C3DD807DBE3C6 /* UITableViewCell+HCEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B57FE11079AD284376F7868E6C44DD /* UITableViewCell+HCEventDelegate.m */; };
+		DCFD1F41AF8481DFF2EF420C53766ABB /* HCTableAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6A6EDBC342E8F2FE410D2698A4A94F /* HCTableAdapter-dummy.m */; };
 		ED3DE623DD62554807DE5F76596F8355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		F21824CF86676F3890A204413545D632 /* HCTableViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A20074F569D76C455E45EA48A3F259F /* HCTableViewProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F661BDA997C3AF12981EB6B1C2D7C12B /* HCTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8811441A257DEEF11B37D47B6976060D /* HCTableViewDataSource.m */; };
+		EF799DA27CFF726978C8FB70BC78461C /* HCTableViewEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BE18B969C10C156CD0113C15CEB25ADC /* HCTableViewEventHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,32 +37,34 @@
 
 /* Begin PBXFileReference section */
 		005CAC94EDFF4CFBF5E3B93578B8F4E5 /* Pods-HCTableAdapter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCTableAdapter-frameworks.sh"; sourceTree = "<group>"; };
-		06C13BED1558C4D8B0A4E11927FD403D /* UITableViewCell+HCEventDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+HCEventDelegate.m"; path = "HCTableAdapter/Classes/View/UITableViewCell+HCEventDelegate.m"; sourceTree = "<group>"; };
+		0359F2B1DD0098A449EF72625EDF6849 /* HCTableViewAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTableViewAdapter.m; path = HCTableAdapter/Classes/HCTableViewAdapter.m; sourceTree = "<group>"; };
 		19FF26041FF7922469A8FEA1FC1A93C1 /* Pods-HCTableAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCTableAdapter.release.xcconfig"; sourceTree = "<group>"; };
-		1C6867008A8DAE4292748CA05621C616 /* HCTableAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCTableAdapter-dummy.m"; sourceTree = "<group>"; };
-		1FEED294C6DFC99C671B3936E0F45E32 /* UITableViewHeaderFooterView+HCEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewHeaderFooterView+HCEventDelegate.h"; path = "HCTableAdapter/Classes/View/UITableViewHeaderFooterView+HCEventDelegate.h"; sourceTree = "<group>"; };
-		2098F05E58D0C2F241707B22151C13B5 /* UITableViewHeaderFooterView+HCEventDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewHeaderFooterView+HCEventDelegate.m"; path = "HCTableAdapter/Classes/View/UITableViewHeaderFooterView+HCEventDelegate.m"; sourceTree = "<group>"; };
+		1AA744FD7152FBBA9A881EA16496D19E /* HCTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTableViewDataSource.m; path = HCTableAdapter/Classes/HCTableViewDataSource.m; sourceTree = "<group>"; };
+		1D6982AF3ACC951A9F5F63804912A628 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1F5A698156D0FDC1EECBE7296E47EA03 /* HCTableAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HCTableAdapter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CD0BB7F77F2B65705D8383CFFCB971C /* Pods-HCTableAdapter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCTableAdapter-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D1442AE42957DC3AB0A4325994A974C /* UITableViewCell+HCEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+HCEventDelegate.h"; path = "HCTableAdapter/Classes/View/UITableViewCell+HCEventDelegate.h"; sourceTree = "<group>"; };
+		4E038DB2AC72A8D9E036FFA26A245D24 /* HCTableViewEventHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewEventHandler.h; path = HCTableAdapter/Classes/HCTableViewEventHandler.h; sourceTree = "<group>"; };
 		54545E1971B1F80ADE956C7A18577688 /* libPods-HCTableAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HCTableAdapter.a"; path = "libPods-HCTableAdapter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6860B92DA667AB054B1B1C54394B79B3 /* HCTableAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCTableAdapter-prefix.pch"; sourceTree = "<group>"; };
+		54B57FE11079AD284376F7868E6C44DD /* UITableViewCell+HCEventDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HCEventDelegate.m"; sourceTree = "<group>"; };
+		6D6BD0EF4A857236EB011C00A5DF474E /* UITableViewCell+HCEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HCEventDelegate.h"; sourceTree = "<group>"; };
+		709C561FD5490B338F4696116972E97F /* HCTableAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCTableAdapter-prefix.pch"; sourceTree = "<group>"; };
+		7366CA02EA96B9E638E12A5B5265587E /* HCTableViewAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewAdapter.h; path = HCTableAdapter/Classes/HCTableViewAdapter.h; sourceTree = "<group>"; };
 		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8811441A257DEEF11B37D47B6976060D /* HCTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTableViewDataSource.m; path = HCTableAdapter/Classes/HCTableViewDataSource.m; sourceTree = "<group>"; };
-		8A20074F569D76C455E45EA48A3F259F /* HCTableViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewProtocol.h; path = HCTableAdapter/Classes/Protocols/HCTableViewProtocol.h; sourceTree = "<group>"; };
-		8E6FA144CA011E0A5707C4C0D8548DF8 /* HCTableViewAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewAdapter.h; path = HCTableAdapter/Classes/HCTableViewAdapter.h; sourceTree = "<group>"; };
+		84819FB35A37331877AA63020B0F8449 /* UITableViewHeaderFooterView+HCEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+HCEventDelegate.h"; sourceTree = "<group>"; };
+		8A15EE691C3763268428B896B762F2A8 /* HCTableAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCTableAdapter.xcconfig; sourceTree = "<group>"; };
+		8BCF6BD05ED8CCF3A59A8C62DAD66B2A /* HCTableViewEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HCTableViewEventDelegate.h; sourceTree = "<group>"; };
+		91A90112C7142C83E732C679A7935689 /* HCTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewDataSource.h; path = HCTableAdapter/Classes/HCTableViewDataSource.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		986EA4FB23D21A4798C34913285B4EB7 /* Pods-HCTableAdapter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCTableAdapter-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9BC4E19B60425F4EB2EB0F785C9F4E67 /* Pods-HCTableAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCTableAdapter.debug.xcconfig"; sourceTree = "<group>"; };
-		A56731B1E18BDD19856AE8DAF12E6C42 /* HCTableViewEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTableViewEventHandler.m; path = HCTableAdapter/Classes/HCTableViewEventHandler.m; sourceTree = "<group>"; };
-		ABF57AC6258CC667D035BECA3B8E3A3A /* HCTableAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCTableAdapter.xcconfig; sourceTree = "<group>"; };
+		A81E52948DF8A1743B98643659CBF194 /* UITableViewHeaderFooterView+HCEventDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+HCEventDelegate.m"; sourceTree = "<group>"; };
+		BE18B969C10C156CD0113C15CEB25ADC /* HCTableViewEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTableViewEventHandler.m; path = HCTableAdapter/Classes/HCTableViewEventHandler.m; sourceTree = "<group>"; };
 		C43D18FCAB32E96E7106829FE6B16561 /* Pods-HCTableAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCTableAdapter-dummy.m"; sourceTree = "<group>"; };
 		D3F70A72C3B797FE87DCF1CDAC6677CA /* libHCTableAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHCTableAdapter.a; path = libHCTableAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC991837D9953E5AC99E06688550796 /* HCTableViewEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewEventDelegate.h; path = HCTableAdapter/Classes/Protocols/HCTableViewEventDelegate.h; sourceTree = "<group>"; };
-		DE1952835E3C204A5C294BC040E58FF0 /* HCTableViewEventHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewEventHandler.h; path = HCTableAdapter/Classes/HCTableViewEventHandler.h; sourceTree = "<group>"; };
-		DE2DAAEFBDD25F8B06B017FC83048329 /* HCTableViewAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTableViewAdapter.m; path = HCTableAdapter/Classes/HCTableViewAdapter.m; sourceTree = "<group>"; };
+		DD6A6EDBC342E8F2FE410D2698A4A94F /* HCTableAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCTableAdapter-dummy.m"; sourceTree = "<group>"; };
 		E7678201AB626BAE8D6E1FEA2866669C /* Pods-HCTableAdapter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCTableAdapter-resources.sh"; sourceTree = "<group>"; };
-		F0D4FF71BD4A2521CA181FC534528259 /* HCTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCTableViewDataSource.h; path = HCTableAdapter/Classes/HCTableViewDataSource.h; sourceTree = "<group>"; };
+		EB73201580E870526CFAAC90727C9B64 /* HCTableViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HCTableViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,15 +104,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		52E92DFFE4484DD987CB4E2E602D3010 /* Support Files */ = {
+		4A6834EF03253FA9F33D612140DCAD44 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				ABF57AC6258CC667D035BECA3B8E3A3A /* HCTableAdapter.xcconfig */,
-				1C6867008A8DAE4292748CA05621C616 /* HCTableAdapter-dummy.m */,
-				6860B92DA667AB054B1B1C54394B79B3 /* HCTableAdapter-prefix.pch */,
+				8BCF6BD05ED8CCF3A59A8C62DAD66B2A /* HCTableViewEventDelegate.h */,
+				EB73201580E870526CFAAC90727C9B64 /* HCTableViewProtocol.h */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/HCTableAdapter";
+			name = Protocols;
+			path = HCTableAdapter/Classes/Protocols;
 			sourceTree = "<group>";
 		};
 		5B379EE9F768083C39A6187E1201E19A /* Pods-HCTableAdapter */ = {
@@ -128,12 +129,20 @@
 			path = "Target Support Files/Pods-HCTableAdapter";
 			sourceTree = "<group>";
 		};
+		6B6024A7D855A0B0C1C66C711E5DCD59 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDBC0BF2B6D94323A8D93B7FE976C018 /* HCTableAdapter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6B6024A7D855A0B0C1C66C711E5DCD59 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				F34D7E68AABAA4C65703AE743DEE3F27 /* Pods */,
 				E1239AA46DEB9BE1DAFA2F97651E7DB2 /* Products */,
 				9CEACE2816FBA69A5B860C1280AE98FF /* Targets Support Files */,
 			);
@@ -147,6 +156,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		C3C3464DA4B54C263EE8512EB2F623EA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A698156D0FDC1EECBE7296E47EA03 /* HCTableAdapter.podspec */,
+				1D6982AF3ACC951A9F5F63804912A628 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DDBC0BF2B6D94323A8D93B7FE976C018 /* HCTableAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				7366CA02EA96B9E638E12A5B5265587E /* HCTableViewAdapter.h */,
+				0359F2B1DD0098A449EF72625EDF6849 /* HCTableViewAdapter.m */,
+				91A90112C7142C83E732C679A7935689 /* HCTableViewDataSource.h */,
+				1AA744FD7152FBBA9A881EA16496D19E /* HCTableViewDataSource.m */,
+				4E038DB2AC72A8D9E036FFA26A245D24 /* HCTableViewEventHandler.h */,
+				BE18B969C10C156CD0113C15CEB25ADC /* HCTableViewEventHandler.m */,
+				C3C3464DA4B54C263EE8512EB2F623EA /* Pod */,
+				4A6834EF03253FA9F33D612140DCAD44 /* Protocols */,
+				FA4A11B1339F551F1AAC1B1ADACBD796 /* Support Files */,
+				EF2BFD41D6C70D77544E886A46079321 /* View */,
+			);
+			name = HCTableAdapter;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		E1239AA46DEB9BE1DAFA2F97651E7DB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,56 +192,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F34D7E68AABAA4C65703AE743DEE3F27 /* Pods */ = {
+		EF2BFD41D6C70D77544E886A46079321 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FE864EE9DBD64725969FCDDB7C6C20A0 /* HCTableAdapter */,
+				6D6BD0EF4A857236EB011C00A5DF474E /* UITableViewCell+HCEventDelegate.h */,
+				54B57FE11079AD284376F7868E6C44DD /* UITableViewCell+HCEventDelegate.m */,
+				84819FB35A37331877AA63020B0F8449 /* UITableViewHeaderFooterView+HCEventDelegate.h */,
+				A81E52948DF8A1743B98643659CBF194 /* UITableViewHeaderFooterView+HCEventDelegate.m */,
 			);
-			name = Pods;
+			name = View;
+			path = HCTableAdapter/Classes/View;
 			sourceTree = "<group>";
 		};
-		FE864EE9DBD64725969FCDDB7C6C20A0 /* HCTableAdapter */ = {
+		FA4A11B1339F551F1AAC1B1ADACBD796 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8E6FA144CA011E0A5707C4C0D8548DF8 /* HCTableViewAdapter.h */,
-				DE2DAAEFBDD25F8B06B017FC83048329 /* HCTableViewAdapter.m */,
-				F0D4FF71BD4A2521CA181FC534528259 /* HCTableViewDataSource.h */,
-				8811441A257DEEF11B37D47B6976060D /* HCTableViewDataSource.m */,
-				DDC991837D9953E5AC99E06688550796 /* HCTableViewEventDelegate.h */,
-				DE1952835E3C204A5C294BC040E58FF0 /* HCTableViewEventHandler.h */,
-				A56731B1E18BDD19856AE8DAF12E6C42 /* HCTableViewEventHandler.m */,
-				8A20074F569D76C455E45EA48A3F259F /* HCTableViewProtocol.h */,
-				3D1442AE42957DC3AB0A4325994A974C /* UITableViewCell+HCEventDelegate.h */,
-				06C13BED1558C4D8B0A4E11927FD403D /* UITableViewCell+HCEventDelegate.m */,
-				1FEED294C6DFC99C671B3936E0F45E32 /* UITableViewHeaderFooterView+HCEventDelegate.h */,
-				2098F05E58D0C2F241707B22151C13B5 /* UITableViewHeaderFooterView+HCEventDelegate.m */,
-				52E92DFFE4484DD987CB4E2E602D3010 /* Support Files */,
+				8A15EE691C3763268428B896B762F2A8 /* HCTableAdapter.xcconfig */,
+				DD6A6EDBC342E8F2FE410D2698A4A94F /* HCTableAdapter-dummy.m */,
+				709C561FD5490B338F4696116972E97F /* HCTableAdapter-prefix.pch */,
 			);
-			name = HCTableAdapter;
-			path = HCTableAdapter;
+			name = "Support Files";
+			path = "Pods/Target Support Files/HCTableAdapter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7CB6E566D7A147A0DA886CEC34B6BC77 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70AA6DC0B8F1F3F923D656BCE904BC48 /* HCTableViewAdapter.h in Headers */,
-				551565E9A185A490A2DE24E781454D5B /* HCTableViewDataSource.h in Headers */,
-				0B8D72E58A58345F234F9CEEF4DE3DD5 /* HCTableViewEventDelegate.h in Headers */,
-				23E9BABBBF655778644BA297D35B1591 /* HCTableViewEventHandler.h in Headers */,
-				F21824CF86676F3890A204413545D632 /* HCTableViewProtocol.h in Headers */,
-				8346AA6644CF7E3FA889B584B6AB78E7 /* UITableViewCell+HCEventDelegate.h in Headers */,
-				B1AA47DED64BC4D7CAD586376C9F03AF /* UITableViewHeaderFooterView+HCEventDelegate.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BD2D763AA7ABE79B7A1DA4F8D71F8F58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA9FDF042619495560A2F428B03A33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0C353E47E35773E73F47D37802C0D7 /* HCTableViewAdapter.h in Headers */,
+				5BDAF2AFFD741007D2111B06E029CE4C /* HCTableViewDataSource.h in Headers */,
+				0F92753B260B92AE671165E8578FF566 /* HCTableViewEventDelegate.h in Headers */,
+				2BDECB8DB3E67ABB574F3130E506863C /* HCTableViewEventHandler.h in Headers */,
+				0C8D5BA50D85CEC9935A72CB714B0576 /* HCTableViewProtocol.h in Headers */,
+				413EF7A15E041BB40B7355101B064A76 /* UITableViewCell+HCEventDelegate.h in Headers */,
+				4CE2129FC6A07A9B1BBFBBDD22F18C51 /* UITableViewHeaderFooterView+HCEventDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +246,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CCDF105219C72234286CA546B227BC2 /* Build configuration list for PBXNativeTarget "HCTableAdapter" */;
 			buildPhases = (
-				7CB6E566D7A147A0DA886CEC34B6BC77 /* Headers */,
-				45827D14693CD557B6E64CCC45FF7E01 /* Sources */,
+				D3FA9FDF042619495560A2F428B03A33 /* Headers */,
+				993FB52E7264A0E8CE318C0891D5BBCD /* Sources */,
 				C2907CFAD3CE83107B55187DFBE5633B /* Frameworks */,
 			);
 			buildRules = (
@@ -275,16 +305,16 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45827D14693CD557B6E64CCC45FF7E01 /* Sources */ = {
+		993FB52E7264A0E8CE318C0891D5BBCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04D768970DD4E24319B33FAA45DB4D5 /* HCTableAdapter-dummy.m in Sources */,
-				DFF34C2E6AF28E657321ECC802E81511 /* HCTableViewAdapter.m in Sources */,
-				F661BDA997C3AF12981EB6B1C2D7C12B /* HCTableViewDataSource.m in Sources */,
-				6EDFD71F0D6E03170804ABDDD6605A38 /* HCTableViewEventHandler.m in Sources */,
-				3B29CF956D9716F667D6C21B72300FC5 /* UITableViewCell+HCEventDelegate.m in Sources */,
-				A1FB0D4C10F03DD8EFF5789D8E44DDFC /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */,
+				DCFD1F41AF8481DFF2EF420C53766ABB /* HCTableAdapter-dummy.m in Sources */,
+				547FA4DA5B15963865D17A3367824092 /* HCTableViewAdapter.m in Sources */,
+				B42C346B55D37AE0D6BC522C9CD42997 /* HCTableViewDataSource.m in Sources */,
+				EF799DA27CFF726978C8FB70BC78461C /* HCTableViewEventHandler.m in Sources */,
+				D1DEF8E53486A464FD5C3DD807DBE3C6 /* UITableViewCell+HCEventDelegate.m in Sources */,
+				37010C1052540F2E39B6292FAA123D2D /* UITableViewHeaderFooterView+HCEventDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +490,7 @@
 		};
 		896B98248A0AE18665AA7B9AFBBE5989 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABF57AC6258CC667D035BECA3B8E3A3A /* HCTableAdapter.xcconfig */;
+			baseConfigurationReference = 8A15EE691C3763268428B896B762F2A8 /* HCTableAdapter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -505,7 +535,7 @@
 		};
 		FF00D75F085A02F29A8CD3C38F041343 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABF57AC6258CC667D035BECA3B8E3A3A /* HCTableAdapter.xcconfig */;
+			baseConfigurationReference = 8A15EE691C3763268428B896B762F2A8 /* HCTableAdapter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

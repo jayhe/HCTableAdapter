@@ -1,1 +1,1 @@
-../../../HCTableAdapter/HCTableAdapter/Classes/View/UITableViewCell+HCEventDelegate.h
+../../../../HCTableAdapter/Classes/View/UITableViewCell+HCEventDelegate.h

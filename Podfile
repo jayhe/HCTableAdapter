@@ -6,6 +6,6 @@ target 'HCTableAdapter' do
   # use_frameworks!
 
   # Pods for HCTableAdapter
-  #pod 'HCTableAdapter', :path => './'
-  pod 'HCTableAdapter', :git => 'https://github.com/jayhe/HCTableAdapter.git'
+  pod 'HCTableAdapter', :path => './'
+  #pod 'HCTableAdapter', :git => 'https://github.com/jayhe/HCTableAdapter.git'
 end

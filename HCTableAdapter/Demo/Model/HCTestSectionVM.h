@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL isFold; // 是否折叠默认为NO：展开
 @property (nonatomic, copy) NSString *foldUnfoldButtonTitle;
+@property (nonatomic, assign) NSInteger section;
 
 - (instancetype)initWithDict:(NSDictionary *)dict;
 
